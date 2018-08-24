@@ -1,0 +1,52 @@
+:root {
+	font-size: 16px;
+	background: #EDF9FB;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.heading{
+	text-align: center; 
+	font-family: sans-serif;
+	background: #563d7c;
+	padding: 10px;
+	color: white;
+}
+.container	{
+	padding: 15px;
+}
+.accordion {
+	display: flex;
+	flex-direction: column;
+	background: white;
+	border: 1px solid white;
+}
+.active, .accordion-button:hover {
+	background: #aaa;
+}
+.accordion-button {
+	position: relative;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	font-size: 1.5rem;
+	font-family: sans-serif;
+	font-weight: 700;
+	background: #75BBC6;
+	color: #fff;	
+	border-radius: 5px;	
+}
+.content {
+	display: none; 
+	overflow: auto;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	border-right: 1px solid #888;
+	border-radius: 0 0 5px 5px;
+}	
+.content p {
+	padding: 7px; 
+	font-size: 1.2rem;
+	font-family: "Roboto", sans-serif;
+}
